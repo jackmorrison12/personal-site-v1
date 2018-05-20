@@ -38,7 +38,7 @@
       margin: 0;
       padding: 0;
       overflow: hidden;
-      background-color: rgb(92, 5, 5);
+      background-color: rgba(0, 0, 0, 0.753)
       position: -webkit-sticky; /* Safari */
       position: sticky;
       top: 0;
