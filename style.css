@@ -33,6 +33,27 @@
       color: black;
       font-size: 14px;
   }
+    /* unvisited link */
+.footer a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.footer a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.footer a:hover {
+    color: rgb(146, 1, 1);
+}
+
+/* selected link */
+.footer a:active {
+    color: rgb(146, 1, 1);
+}
   
   
   ul {
@@ -67,25 +88,3 @@
       background-color: white;
       color: black;
   }
-
-  /* unvisited link */
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-/* visited link */
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-/* mouse over link */
-a:hover {
-    color: rgb(146, 1, 1);
-}
-
-/* selected link */
-a:active {
-    color: rgb(146, 1, 1);
-}
