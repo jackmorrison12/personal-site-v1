@@ -7,7 +7,7 @@
 
   .container{
     min-height:100%;
-    position:relative;
+    position:absolute;
   }
   /* Style the header */
   .header {
