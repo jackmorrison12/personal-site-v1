@@ -82,6 +82,11 @@
 .project a:active {
     color: black;
 }
+
+.project h2{
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
   
   /* Style the footer */
   .footer {
