@@ -33,7 +33,15 @@
       padding-bottom:60px;
       
   }
-  .content h1{
+
+.content img{
+
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content h1{
     font-size: 22px; 
 }
 .content h2{
