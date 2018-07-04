@@ -4,6 +4,13 @@
     height: 100%;
     padding: 0;
   }
+  
+  .twt_wrap {
+    text-align: center;
+  }
+  .twt_wrap > iframe {
+    margin: auto;
+  }
 
   .container{
     min-height:100%;
@@ -19,6 +26,7 @@
       background-size:cover;
       font-family: 'Cinzel Decorative';
       font-size: 22px;
+      text-shadow: 2px 2px #000000;
   }
   
   /* Style the content */
@@ -33,7 +41,15 @@
       padding-bottom:60px;
       
   }
-  .content h1{
+
+.content img{
+    max-width: 200px;
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content h1{
     font-size: 22px; 
 }
 .content h2{
@@ -44,19 +60,25 @@
     font-size: 18px; 
 }
 
-  .project {
+.project {
     background-color: rgb(0, 183, 255);
     padding: 5px;
     border-radius: 25px;
     color: white;
-  }
+}
 
-  .school {
+.school {
     background-color: rgb(226, 21, 21);
     padding: 5px;
     border-radius: 25px;
     color: white;
-  }
+}
+
+.school h2{
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
       /* unvisited link */
 .project a:link {
     color: white;
@@ -75,6 +97,11 @@
 /* selected link */
 .project a:active {
     color: black;
+}
+
+.project h2{
+    margin-bottom: 0; 
+    padding-bottom: 0;
 }
   
   /* Style the footer */
@@ -143,4 +170,13 @@
   .active {
       background-color: white;
       color: black;
+  }
+
+@media screen and (max-width: 481px){
+
+    .content{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
   }
