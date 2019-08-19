@@ -178,6 +178,12 @@
       background-color: white;
       color: black;
   }
+
+  .nav-logo {
+    height: 30px; 
+    padding:5px;
+    float: right; 
+  }
   
   .active {
       background-color: white;
@@ -193,6 +199,10 @@
 
     .header{
         padding: 10px;
+    }
+
+    .nav-logo {
+        display: none;
     }
 
   }
