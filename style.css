@@ -41,6 +41,7 @@
       padding-bottom:60px;
       
   }
+  
 
 .content img{
     max-width: 200px;
@@ -58,6 +59,15 @@
 
 .content h3{
     font-size: 18px; 
+}
+
+.map-content {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding-bottom:60px;
 }
 
 .project {
