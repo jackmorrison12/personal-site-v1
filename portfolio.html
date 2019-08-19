@@ -1,92 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Portfolio</title>
-<meta charset="utf-8">
-<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
+
 <body>
-<div class="container">
-<div class="header">
-    <h2>Jack Morrison</h2>
-    <p>Imperial College London</p>
-</div>
+  <div class="container">
+    <div class="header">
+      <h2>Jack Morrison</h2>
+      <p>Imperial College London</p>
+    </div>
 
-<ul>
-    <li><a href="http://www.jackmorrison.xyz">Home</a></li>
-    <li><a href="/files/jack-cv.pdf">CV</a></li>
-    <li><a class="active" href="/portfolio">Portfolio</a></li>
-    <li><a href="/transcript">Transcript</a></li>
-    <a href = "https://www.linkedin.com/in/jackmorrison12/"><img src="images/linkedin-logo.png" class="nav-logo"></a>    
-    <a href = "https://github.com/jackmorrison12"><img src="images/github-logo.png" class="nav-logo"></a>
-    <a href = "https://twitter.com/jsm_ic"><img src="images/twitter-logo.png" class="nav-logo"></a>
-</ul>
-  
+    <ul>
+      <li><a href="http://www.jackmorrison.xyz">Home</a></li>
+      <li><a href="/files/jack-cv.pdf">CV</a></li>
+      <li><a class="active" href="/portfolio">Portfolio</a></li>
+      <li><a href="/transcript">Transcript</a></li>
+      <a href="https://www.linkedin.com/in/jackmorrison12/"><img src="images/linkedin-logo.png" class="nav-logo"></a>
+      <a href="https://github.com/jackmorrison12"><img src="images/github-logo.png" class="nav-logo"></a>
+      <a href="https://twitter.com/jsm_ic"><img src="images/twitter-logo.png" class="nav-logo"></a>
+    </ul>
 
-<div class="content">
-  <h1>Projects</h1>
-  <div class="project">
-    <h2>C Project</h2>
-    <i>May 2018 - June 2018</i>
-    <p>This project was completed in the final term of my first year undergraduate studies. 
-    It entailed creating an ARM11 Emulator and Assembler in C, then using these in combination with a Raspberry Pi to control an LED.<br><br>
-    The final part of the project was the extension, where we chose to recreate the classic game of snake on a 32x32 LED matrix.
-    We did this by using a hat fo the Raspberry Pi to connect it to the matrix, and created 4 modes for the game, one of which was an Artificial Intelligence.
-    We also created an arcade-machine inspired box for the project, and created all of our own sounds too.<br><br>
-    Unfortunately the code for the emulator and assembler cannot be shared here as the task will be reused in future years, however more information on our extension can be found <a href="/cproject">here</a>.
-    </p>
+
+    <div class="content">
+      <h1>Projects</h1>
+      <div class="project">
+        <h2>Burst My Bubble</h2>
+        <i>May 2019 - June 2019</i>
+        <p>
+          This was our end of second year group project, where the brief was to create a webapp.
+          We decided to create a news feed with a difference. The aim was to encourage people to change up their
+          news sources and read some new material in order to "Burst their Bubble".
+          We wrote it using React for the frontend and Python/Java for the backend, and used a MongoDB database.
+          <br><br>
+          Find some screenshots of our application in action <a href="https://photos.google.com/share/AF1QipM5R1BRHKQ4bLa1pAdf2RiZEePcg3fXXm24ve4S2Sl6zHqWSqhO8Tcx0bMzB6CWqg?key=WHY5eDFFeXVnZEFVUzZ3dDRwUWF2eHh3TUlVbGtB">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>WACC</h2>
+        <i>January 2019 - March 2019</i>
+        <p>
+            This is our second year compilers project, where we are creating a compiler for a programming language.
+            We wrote the compiler in Kotlin.
+            <br><br>
+            Unfortunately, the code for this project cannot be shared, as the task will be reused in future years.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>Automatic Monzo Receipts from Gmail</h2>
+        <i>January 2019</i>
+        <p>
+            This app was created as part of Cambridge Hack 4D.
+            It displays recent transactions to the user, and if the user clicks the "Add Receipt" button, 
+            then it will use the Gmail API to scan their emails, find the correct one, and gather the receipt data, 
+            adding this to the Monzo application. It is also possible to have pictures of receipts if they are physical 
+            and not in the emails, and then the same algorithm is run on the text data gathered from the receipt using 
+            Microsoft Azrure OCR to get the equivalent information and add it to the transaction in the Monzo app.
+            <br><br>
+            More hackathon submission can be found <a href="https://devpost.com/software/monzo-receipts">here</a>.
+            <br>
+            The repo can be found <a href="https://github.com/et-tamen-compilat/monzo-receipts">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>Pintos</h2>
+        <i>October 2018 - December 2018</i>
+        <p>
+            This was our 2nd year operating systems project, where the task was to implement different parts of an operating system, including scheduling, user programs and virtual memory.
+            This project was written entirely in C.
+            <br><br>
+            Unfortunately, the code for this project cannot be shared, as the task will be reused in future years.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>MentorMe</h2>
+        <i>September 2018 - November 2018</i>
+        <p>
+            We created a project as part of the Facebook Hack-a-Project with the aim of "Bringing Communities Together". 
+            Our application is a mentoring application which allows people with valuable skills and experiences to trade 
+            that knowledge for knowledge from others. It was built using the MERN stack (MongoDB, Express, React and Node.js).
+            <br><br>
+            The repo can be found <a href="https://github.com/HashimR/mentorme">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>C Project</h2>
+        <i>May 2018 - June 2018</i>
+        <p>This project was completed in the final term of my first year undergraduate studies.
+          It entailed creating an ARM11 Emulator and Assembler in C, then using these in combination with a Raspberry Pi
+          to control an LED.<br><br>
+          The final part of the project was the extension, where we chose to recreate the classic game of snake on a
+          32x32 LED matrix.
+          We did this by using a hat fo the Raspberry Pi to connect it to the matrix, and created 4 modes for the game,
+          one of which was an Artificial Intelligence.
+          We also created an arcade-machine inspired box for the project, and created all of our own sounds too.<br><br>
+          Unfortunately the code for the emulator and assembler cannot be shared here as the task will be reused in
+          future years, however more information on our extension can be found <a href="/cproject">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>Deep Learning in Medical Imaging Analysis</h2>
+        <i>January 2018 - March 2018</i>
+        <p>This project was undertaken as my first year group project, and involved creating a website discussing the
+          uses of AI in Medical Imaging Analysis.<br><br>
+          Our main areas of research were to look into the history and evolution of medical imaging and machine learning
+          as separate topics, and then find areas in which they overlapped.
+          We looked at Convolutional Neural Networks, along with Semantic Segmentation, as these are the most
+          commmonplace in medical imaging.
+          We then looked at overlapping topics, these being the uses of AI in radiology, and a deeper case study into
+          the user for detection of lung cancer.<br>
+          <br>We had to create a website to display all of this information, which can be accessed <a
+            href="https://www.doc.ic.ac.uk/~jce317/">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>To What Extent are Computer-Assisted Proofs Valid?</h2>
+        <i>September 2016 - May 2017</i>
+        <p>This project was completed as my Extended Project during my A Level studies, and discussed the controversy
+          over computer-assisted proofs.<br><br>
+          At the start of this project, I was unfamiliar with the area of computer-assisted proofs, and mathematical
+          proofs in general for that matter.
+          I decided on the topic because my mathematics teacher had discussed it in a lesson and I was curious to find
+          out more.
+          He mentioned that many mathematicians, to my surprise, did not agree that a theorem which had been proved
+          using proof by exhaustion on a computer was legitimate.
+          I did not understand their reasoning behind it not being a proof, because I presumed that if every case was
+          proved to be true, then the proof would have to be valid.
+          That is why I became interested in the subject, and when that chance to write a project on the topic arose, I
+          decided I wanted to consider it further.<br>
+          <br>My dissertation can be found <a href="/files/epq.pdf">here</a>.
+        </p>
+      </div>
+      <br>
+      <div class="project">
+        <h2>A Level Computing Project</h2>
+        <i>June 2016 - March 2017</i>
+        <p>This project was mainly undertaken during the second year of my A Level Computing studies, with the task to
+          create a mobile application.<br><br>
+          I decided to create an app which could generate random GCSE-level mathematics questions for students so that
+          they could test their knowledge.
+          It could also check to see if their answers were correct, and had other features such as a leaderboard with
+          friends, and streaks to encourage daily use.
+          I made the application for iOS devices, and so had a lot of experience with the Swift programming language and
+          XCode.
+          This project was a fun way of teaching myself a new programming language from scratch, as I was never taught
+          it in a formal environment.
+          This meant I became used to using manuals for the language to look up syntax and specific features of the
+          language, which was a great learning experience. <br>
+          <br>The source code for the application can be found on my GitHub <a
+            href="https://github.com/jackmorrison12/ALevelCoursework">here</a>.
+        </p>
+      </div>
+      <br>
+
+
+
+    </div>
+
+    <div class="footer">
+      <p><a href="mailto:jack1morrison@icloud.com">Email</a> • <a href="sms:+447775101516">SMS</a> • <a
+          href="https://github.com/jackmorrison12">GitHub</a> • <a href="https://twitter.com/jsm_ic">Twitter</a> • <a
+          href="https://www.linkedin.com/in/jackmorrison12/">LinkedIn</a></p>
+    </div>
   </div>
-  <br>
-  <div class="project">
-    <h2>Deep Learning in Medical Imaging Analysis</h2>
-    <i>January 2018 - March 2018</i>
-    <p>This project was undertaken as my first year group project, and involved creating a website discussing the uses of AI in Medical Imaging Analysis.<br><br>
-    Our main areas of research were to look into the history and evolution of medical imaging and machine learning as separate topics, and then find areas in which they overlapped.
-    We looked at Convolutional Neural Networks, along with Semantic Segmentation, as these are the most commmonplace in medical imaging.
-    We then looked at overlapping topics, these being the uses of AI in radiology, and a deeper case study into the user for detection of lung cancer.<br>
-    <br>We had to create a website to display all of this information, which can be accessed <a href="https://www.doc.ic.ac.uk/~jce317/">here</a>.
-    </p>
-  </div>
-<br>
-  <div class="project">
-    <h2>To What Extent are Computer-Assisted Proofs Valid?</h2>
-    <i>September 2016 - May 2017</i>
-    <p>This project was completed as my Extended Project during my A Level studies, and discussed the controversy over computer-assisted proofs.<br><br>
-    At the start of this project, I was unfamiliar with the area of computer-assisted proofs, and mathematical proofs in general for that matter.
-    I decided on the topic because my mathematics teacher had discussed it in a lesson and I was curious to find out more. 
-    He mentioned that many mathematicians, to my surprise, did not agree that a theorem which had been proved using proof by exhaustion on a computer was legitimate. 
-    I did not understand their reasoning behind it not being a proof, because I presumed that if every case was proved to be true, then the proof would have to be valid. 
-    That is why I became interested in the subject, and when that chance to write a project on the topic arose, I decided I wanted to consider it further.<br>
-    <br>My dissertation can be found <a href = "/files/epq.pdf">here</a>.
-    </p>
-  </div>
-  <br>
-  <div class="project">
-    <h2>A Level Computing Project</h2>
-    <i>June 2016 - March 2017</i>
-    <p>This project was mainly undertaken during the second year of my A Level Computing studies, with the task to create a mobile application.<br><br>
-      I decided to create an app which could generate random GCSE-level mathematics questions for students so that they could test their knowledge.
-      It could also check to see if their answers were correct, and had other features such as a leaderboard with friends, and streaks to encourage daily use.
-      I made the application for iOS devices, and so had a lot of experience with the Swift programming language and XCode.
-      This project was a fun way of teaching myself a new programming language from scratch, as I was never taught it in a formal environment.
-      This meant I became used to using manuals for the language to look up syntax and specific features of the language, which was a great learning experience. <br>
-      <br>The source code for the application can be found on my GitHub <a href = "https://github.com/jackmorrison12/ALevelCoursework">here</a>.
-    </p>
-  </div>
-  <br>
-
-  
-
-</div>
-
-<div class="footer">
-  <p><a href = "mailto:jack1morrison@icloud.com">Email</a> • <a href = "sms:+447775101516">SMS</a> • <a href = "https://github.com/jackmorrison12">GitHub</a> • <a href = "https://twitter.com/jsm_ic">Twitter</a> • <a href = "https://www.linkedin.com/in/jackmorrison12/">LinkedIn</a></p>
-</div>
-</div>
 </body>
+
 </html>
