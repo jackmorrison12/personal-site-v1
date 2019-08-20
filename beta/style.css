@@ -1,0 +1,208 @@
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding: 0;
+  }
+  
+  .twt_wrap {
+    text-align: center;
+  }
+  .twt_wrap > iframe {
+    margin: auto;
+  }
+
+  .container{
+    min-height:100%;
+    min-width: 100%;
+    position:absolute;
+  }
+  /* Style the header */
+  .header {
+      padding: 80px;
+      text-align: center;
+      color: white;
+      background-image: url("images/background.jpg");
+      background-size:cover;
+      font-family: 'Cinzel Decorative';
+      font-size: 22px;
+      text-shadow: 2px 2px #000000;
+  }
+  
+  /* Style the content */
+  .content {
+      background-color: white;
+      padding: 10px;
+      text-align: center;
+      color: black;
+      font-size: 14px;
+      padding-left: 20%;
+      padding-right: 20%;
+      padding-bottom:60px;
+      
+  }
+  
+
+.content img{
+    max-width: 200px;
+    border-radius: 50%;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content h1{
+    font-size: 22px; 
+}
+.content h2{
+    font-size: 20px; 
+}
+
+.content h3{
+    font-size: 18px; 
+}
+
+.map-content {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    padding-bottom:60px;
+    padding-right:15%;
+    padding-left:15%;
+}
+
+.project {
+    background-color: rgb(0, 183, 255);
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+.school {
+    background-color: rgb(226, 21, 21);
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+}
+
+.school h2{
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+      /* unvisited link */
+.project a:link {
+    color: white;
+}
+
+/* visited link */
+.project a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.project a:hover {
+    color: black;
+}
+
+/* selected link */
+.project a:active {
+    color: black;
+}
+
+.project h2{
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+  
+  /* Style the footer */
+  .footer {
+      background-color: #f1f1f1;
+      padding: 1px;
+      text-align: center;
+      color: black;
+      font-size: 14px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+  }
+    /* unvisited link */
+.footer a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/* visited link */
+.footer a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+/* mouse over link */
+.footer a:hover {
+    color: rgb(146, 1, 1);
+}
+
+/* selected link */
+.footer a:active {
+    color: rgb(146, 1, 1);
+}
+  
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(0, 0, 0);
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+  }
+  
+  li {
+      float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 12px 16px;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      background-color: white;
+      color: black;
+  }
+
+  .nav-logo {
+    height: 30px; 
+    padding:5px;
+    float: right; 
+  }
+  
+  .active {
+      background-color: white;
+      color: black;
+  }
+
+@media screen and (max-width: 481px){
+
+    .content{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .header{
+        padding: 10px;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+  }
