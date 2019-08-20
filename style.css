@@ -150,6 +150,22 @@
     color: rgb(146, 1, 1);
 }
   
+.banner {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: blueviolet;
+    color: white;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.banner a{
+    color: white;
+}
   
   ul {
       list-style-type: none;
