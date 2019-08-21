@@ -22,7 +22,7 @@ title: Jack Morrison
 email: jack1morrison@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
   Imperial College London Computing Student.
-baseurl: "/BetaSite" # the subpath of your site, e.g. /blog
+baseurl: "beta/BetaSite" # the subpath of your site, e.g. /blog
 url: "https://jackmorrison.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jsm_ic
 github_username:  jackmorrison12
